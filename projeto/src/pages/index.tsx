@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@styles/Home.module.css";
+import Link from "next/link";
 
 
 
@@ -10,13 +11,11 @@ export default function Home() {
      <header>
       <nav>
         <h1>LeiFácil</h1>
-        <div className="procurar"><input type="text" placeholder="Oque você procura?" />
-         <input type="submit" />
-         </div>
+        
          <li>
-          <a href="Leis">Leis</a>
-          <a href="Decretos">Decretos</a>
-          <a href="Editais">Editais</a>
+          <Link href="leis"><button >Leis/2025</button></Link>
+          <a href="Decretos"><button>Decretos/2025</button></a>
+          <a href="Editais"><button>Editais</button></a>
          </li>
       </nav>
      </header>
