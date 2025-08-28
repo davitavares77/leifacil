@@ -14,26 +14,36 @@ nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: fixed rgb(175, 175, 175);
+  background: fixed rgb(97, 97, 97);
   height: 8vh;
 
 }
-
 nav li a{
-color:rgb(0, 143, 253);
+color:rgb(255, 255, 255);
 text-decoration: none;
 margin: 20px;
-}
-
-nav li a:hover{
-  background: #fff ;
-  border-radius: 15%;
+border: none;
   transition: 0.3s;
 }
+
  nav li{
   list-style: none;
   display: flex;
   letter-spacing: 3px;
+  
+}
+
+nav li button{
+  height: 100%;
+  padding: 0.8em;
+  border: none;
+  background-color: rgb(97, 97, 97) ;
+  transition: background-color 0.4s;
+  
+}
+
+nav li button:hover{
+  background: #b60707 ;
   
 }
 
